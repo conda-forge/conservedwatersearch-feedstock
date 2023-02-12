@@ -1,5 +1,5 @@
 {% set name = "ConservedWaterSearch" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ConservedWaterSearch-{{ version }}.tar.gz
-  sha256: 0811404f0bd2dbac693bbc2f0d6ee1163dbeee34c552c5e33e82cd00a1a56a74
+  sha256: f07dedade40568d759d75120a752ac35a947da5b56b43d25e52abfae8c818776
 
 build:
   noarch: python
@@ -41,7 +41,7 @@ about:
   license_file: LICENSE
   doc_url: https://ConservedWaterSearch.readthedocs.io/
   dev_url: https://github.com/JecaTosovic/ConservedWaterSearch
-  summary:  Determination of conserved waters from MD trajectories for drug design and materials science.
+  summary: Determination of conserved waters from MD trajectories for drug design and materials science.
 
 extra:
   recipe-maintainers:
