@@ -1,11 +1,11 @@
-About conservedwatersearch
-==========================
+About conservedwatersearch-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conservedwatersearch-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/JecaTosovic/ConservedWaterSearch
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conservedwatersearch-feedstock/blob/main/LICENSE.txt)
 
 Summary: Determination of conserved waters from MD trajectories for drug design and materials science.
 
