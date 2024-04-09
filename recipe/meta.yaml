@@ -1,5 +1,5 @@
 {% set name = "ConservedWaterSearch" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ConservedWaterSearch-{{ version }}.tar.gz
-  sha256: a7cc3e422094f36f29bb6ce35f90b914a342a2127f8571319e383df78d1a174b
+  sha256: 8ec66c449dab0c35f75be6bf381da00aff9f5ed5e3dc9ff30fe18c3af46d5182
 
 build:
   noarch: python
