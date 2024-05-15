@@ -150,6 +150,3 @@ Feedstock Maintainers
 * [@DomFijan](https://github.com/DomFijan/)
 * [@JecaTosovic](https://github.com/JecaTosovic/)
 
-
-<!-- dummy commit to enable rerendering -->
-
