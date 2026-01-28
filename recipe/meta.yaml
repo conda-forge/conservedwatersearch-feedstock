@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy >=1.22
+    - numpy >=2.0
     - scikit-learn >=1.3
 
 test:
