@@ -36,7 +36,8 @@ test:
     - numpy >=2.0
     - scikit-learn >=1.3
   commands:
-    - PYTHONPATH=$SRC_DIR python -m pytest -v tests
+    - python -m pytest -v --import-mode=importlib tests
+
 
 about:
   home: https://github.com/JecaTosovic/ConservedWaterSearch
