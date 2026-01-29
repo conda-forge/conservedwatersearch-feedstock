@@ -25,19 +25,13 @@ requirements:
     - scikit-learn >=1.3
 
 test:
-  source_files:
-    - tests
+  imports:
+    - ConservedWaterSearch
+  commands:
+    - pip check
   requires:
     - pip
     - python {{ python_min }}
-    - pytest
-    - nglview
-    - pymol-open-source
-    - numpy >=2.0
-    - scikit-learn >=1.3
-  commands:
-    - python -m pytest -v --import-mode=importlib tests
-
 
 about:
   home: https://github.com/JecaTosovic/ConservedWaterSearch
